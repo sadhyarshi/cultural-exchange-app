@@ -1,4 +1,7 @@
 #Cultural Exchange App (Frontend)
+
+
+
 This repository contains the frontend codebase for the Cultural Exchange App, a platform dedicated to cultural exchange and learning. Users can explore and share cultural stories, traditional recipes, and participate in language learning activities.
 
 Features
@@ -28,6 +31,9 @@ Frontend:
 React
 React Router for navigation
 CSS for styling
+
+
+######
 Backend (Intended):
 
 Spring Boot (for Java-based backend)
