@@ -1,0 +1,64 @@
+/* Header.css */
+
+.header {
+  background-color: #673ab7; /* Deep purple */
+  color: #fff; /* White text */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.header:hover {
+  background-color: #512da8; /* Darker purple on hover */
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff; /* White text */
+  text-decoration: none; /* Remove underline */
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 1.5rem;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff; /* White text */
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #4527a0; /* Darker purple on hover */
+}
+
+.profile a {
+  color: #673ab7; /* Deep purple */
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid #673ab7; /* Deep purple border */
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.profile a:hover {
+  background-color: #fff; /* White background on hover */
+  color: #673ab7; /* Deep purple text on hover */
+}
